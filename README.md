@@ -39,5 +39,13 @@ ansible-playbook playbook_deploy.yml
 
 ```
 
+## acesse maquina remoto
+```sh
+cd ~/projects/myproject3
+poetry shell
+./manage.py runserver
+./manage.py makemigrations
+./manage.py migrate
+```
 
 
