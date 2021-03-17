@@ -6,6 +6,12 @@
   register: file_output
   loop: "{{sub_directory_project}}"
 
+# - name: Criando os diretórios para o projeto
+#   ansible.builtin.file:
+#     path: "/home/rdo/{{ item }}"
+#     state: directory
+#   loop:
+#     - projects3
 
 - name: Copiando arquivos necessarios
   ansible.builtin.template:

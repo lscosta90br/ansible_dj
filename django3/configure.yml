@@ -1,6 +1,6 @@
 ---
 - name: Implantando coisas para django
-  hosts: pop-os
+  hosts: wks_all
   become: no
   roles:
     - configure
